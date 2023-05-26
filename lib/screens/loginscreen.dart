@@ -46,11 +46,20 @@ class LoginScreen extends StatelessWidget {
                   height: 35,
                 ),
                 ElevatedButton(
+                  style: TextButton.styleFrom(
+                    backgroundColor: Color.fromARGB(255, 66, 147, 229),
+                    minimumSize: Size(100, 45),
+                  ),
                   onPressed: () {
                     debugPrint('Login Pressed!');
                   },
-                  child: Text('Login'),
-                )
+                  child: Text(
+                    'Login',
+                    style: TextStyle(
+                      fontSize: 15,
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
