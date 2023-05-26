@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/homescreen.dart';
 import 'screens/loginscreen.dart';
+import 'utils/routes.dart';
 
 void main() {
   runApp(
@@ -19,7 +20,8 @@ class MainApp extends StatelessWidget {
       routes: {
         "/": (context) => const LoginScreen(),
         //if we use this (default route, means we have to remove home: from top, because we can't repeat)
-        "/tologin": (context) => const LoginScreen(),
+        MyRoutes.loginRoute: (context) => const LoginScreen(), 
+        MyRoutes.homeRoute: (context) => const HomeScreen(),
       },
     );
   }
