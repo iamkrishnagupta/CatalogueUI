@@ -16,9 +16,12 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.pink, 
+      ),
       // home: HomeScreen(),
       routes: {
-        "/": (context) => const LoginScreen(),
+        "/": (context) => const HomeScreen(),
         //if we use this (default route, means we have to remove home: from top, because we can't repeat)
         MyRoutes.loginRoute: (context) => const LoginScreen(), 
         MyRoutes.homeRoute: (context) => const HomeScreen(),
