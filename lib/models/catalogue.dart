@@ -2,7 +2,7 @@ class Item {
   final String id;
   final String name;
   final String description;
-  final num price;
+  final int price;
   final String color;
   final String imageURl;
 
@@ -15,13 +15,15 @@ class Item {
       required this.imageURl});
 }
 
-final products = [
-  Item(
-    color: "#33505a",
-    description: "I am a Developer",
-    id: "43",
-    name: "Krishna Gupta",
-    price: 99999,
-    imageURl: "http://",
-  ),
-];
+class CatalogueModel {
+  static final items = [
+    Item(
+      color: "#33505a",
+      description: "I am a Developer",
+      id: "43",
+      name: "Krishna Gupta",
+      price: 99999,
+      imageURl: 'https://avatars.githubusercontent.com/u/108782234?s=40&v=4',
+    ),
+  ];
+}
