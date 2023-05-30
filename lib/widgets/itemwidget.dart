@@ -11,8 +11,8 @@ class ItemWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: ListTile(
-        onTap: (){
-          debugPrint('Card Pressed! ')
+        onTap: () {
+          debugPrint('Card Pressed! ');
         },
         leading: Image.network(item.imageURl),
         title: Text(item.name),
