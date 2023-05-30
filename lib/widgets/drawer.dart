@@ -7,8 +7,7 @@ class DrawerWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const imageURL =
-        'https://avatars.githubusercontent.com/u/108782234?s=40&v=4';
+
     return Drawer(
       backgroundColor: Colors.pink,
       child: ListView(
@@ -21,7 +20,7 @@ class DrawerWidget extends StatelessWidget {
               accountName: Text('Krishna Gupta'),
               accountEmail: Text('krishna.gupta@gmail.com'),
               currentAccountPicture: CircleAvatar(
-                backgroundImage: NetworkImage(imageURL),
+    
               ),
               currentAccountPictureSize: Size(80, 80),
             ),

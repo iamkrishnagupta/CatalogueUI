@@ -14,7 +14,7 @@ class ItemWidget extends StatelessWidget {
         onTap: () {
           debugPrint('Card Pressed! ');
         },
-        leading: Image.network(item.imageURl),
+        leading: const Icon(Icons.heart_broken),
         title: Text(item.name),
         subtitle: Text(item.description),
         trailing: Text("${item.price}"),

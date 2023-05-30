@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Krishna",
+      "price": 999,
+      "description": "Hello I am krishna"
+    },
+{
+      "id": 2,
+      "name": "Krish",
+      "price": 99,
+      "description": "Hello I am Krish"
+    },{
+      "id": 3,
+      "name": "dfghh",
+      "price": 99,
+      "description": "Hello I am Ksgrish"
+    },{
+      "id": 4,
+      "name": "ghdf",
+      "price": 99,
+      "description": "Hello I am Krdfgfhish"
+    }
+
+  ]
+}

@@ -1,29 +1,54 @@
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String description;
   final int price;
-  final String color;
-  final String imageURl;
 
-  Item(
-      {required this.id,
-      required this.name,
-      required this.description,
-      required this.price,
-      required this.color,
-      required this.imageURl});
+  Item({
+    required this.id,
+    required this.name,
+    required this.description,
+    required this.price,
+  });
+
+  factory Item.fromMap(Map<String, dynamic> map) {
+    //factory allows to change constucrtiors
+    return Item(
+      id: map["id"],
+      name: map["name"],
+      price: map["price"],
+      description: map["description"],
+    );
+    
+  }
+   //opposite now, to map
+  tomap() => {
+     "id": id,
+      "name": name,
+      "price": price,
+      "description": description,
+  };
 }
 
 class CatalogueModel {
-  static final items = [
+  static List<Item> items = [
     Item(
-      color: "#33505a",
       description: "I am a Developer",
-      id: "43",
+      id: 0,
       name: "Krishna Gupta",
-      price: 99999,
-      imageURl: 'https://avatars.githubusercontent.com/u/108782234?s=40&v=4',
+      price: 579,
+    ),
+    Item(
+      description: "I am a Developer",
+      id: 1,
+      name: "Krishna",
+      price: 99,
+    ),
+    Item(
+      description: "I am a Developer",
+      id: 2,
+      name: "Krish",
+      price: 999,
     ),
   ];
 }
