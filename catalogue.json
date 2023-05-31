@@ -2,25 +2,25 @@
   "products": [
     {
       "id": 1,
-      "name": "Krishna",
-      "price": 999,
-      "description": "Hello I am krishna"
+      "name": "Kris",
+      "price": 99,
+      "description": "Hello I am a Naive!"
     },
 {
       "id": 2,
       "name": "Krish",
-      "price": 99,
-      "description": "Hello I am Krish"
+      "price": 999,
+      "description": "Hello I am a Beginner!"
     },{
       "id": 3,
-      "name": "dfghh",
-      "price": 99,
-      "description": "Hello I am Ksgrish"
+      "name": "Krishna",
+      "price": 9999,
+      "description": "Hello I am an Intermediate!"
     },{
       "id": 4,
-      "name": "ghdf",
-      "price": 99,
-      "description": "Hello I am Krdfgfhish"
+      "name": "Krishna Gupta",
+      "price": 99999,
+      "description": "Hello I am an Expert!"
     }
 
   ]

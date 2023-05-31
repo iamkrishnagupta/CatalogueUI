@@ -33,22 +33,10 @@ class Item {
 class CatalogueModel {
   static List<Item> items = [
     Item(
-      description: "I am a Developer",
-      id: 0,
+      description: "I am an Expert",
+      id: 3,
       name: "Krishna Gupta",
-      price: 579,
-    ),
-    Item(
-      description: "I am a Developer",
-      id: 1,
-      name: "Krishna",
-      price: 99,
-    ),
-    Item(
-      description: "I am a Developer",
-      id: 2,
-      name: "Krish",
-      price: 999,
+      price: 99999,
     ),
   ];
 }
